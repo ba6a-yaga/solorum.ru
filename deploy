@@ -5,6 +5,6 @@ yarn build && \
 cd ~/projects/solorumgroup/webappsolorumgroup-admin && \
 yarn build && \
 cd ~/projects/solorumgroup/solorum.ru && \
-git add -u
+git add --all
 git commit -m "version $1"
 git push github master
